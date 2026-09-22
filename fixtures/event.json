@@ -1,0 +1,7 @@
+{
+  "event_id": "092301-003-sample",
+  "kind": "PLAN_FROZEN",
+  "occurred_at": "2026-09-22T10:00:00+08:00",
+  "subject_id": "previsit-ai-advice-handoff",
+  "version": 1
+}
