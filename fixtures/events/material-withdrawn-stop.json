@@ -1,0 +1,12 @@
+{
+  "event_id": "evt-wd-0002",
+  "kind": "MATERIAL_WITHDRAWN",
+  "occurred_at": "2026-09-21T10:00:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "material_id": "mat-0921-09",
+    "withdrawn_at": "2026-09-21T10:00:00+08:00",
+    "disposition": "stop_sharing"
+  }
+}

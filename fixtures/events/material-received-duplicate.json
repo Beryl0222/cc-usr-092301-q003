@@ -1,0 +1,14 @@
+{
+  "event_id": "evt-mat-0002",
+  "kind": "MATERIAL_RECEIVED",
+  "occurred_at": "2026-09-20T08:33:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "material_id": "mat-0922-01-dup",
+    "media_type": "lab_sheet",
+    "content_hash": "sha256:9f2c1a",
+    "received_at": "2026-09-20T08:33:00+08:00",
+    "duplicate_of": "mat-0922-01"
+  }
+}

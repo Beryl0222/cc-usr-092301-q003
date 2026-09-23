@@ -1,0 +1,17 @@
+{
+  "event_id": "evt-wd-0001",
+  "kind": "MATERIAL_WITHDRAWN",
+  "occurred_at": "2026-09-23T09:00:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "material_id": "mat-0922-01",
+    "withdrawn_at": "2026-09-23T09:00:00+08:00",
+    "disposition": "retain_as_medical_record",
+    "retention_basis": {
+      "plan_id": "plan-0922-01",
+      "reason": "该化验单已作为 9 月 22 日签署诊疗决定的依据，按病历管理规则保留"
+    },
+    "retained_by": "medical-records-office"
+  }
+}

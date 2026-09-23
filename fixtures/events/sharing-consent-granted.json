@@ -1,0 +1,13 @@
+{
+  "event_id": "evt-consent-0001",
+  "kind": "SHARING_CONSENT_GRANTED",
+  "occurred_at": "2026-09-20T09:00:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "consent_id": "consent-0001",
+    "recipient": { "organization_id": "hospital-a", "clinician_id": "dr-wang-018" },
+    "scope": ["sub-0920-01", "mat-0922-01", "ans-0001"],
+    "granted_at": "2026-09-20T09:00:00+08:00"
+  }
+}

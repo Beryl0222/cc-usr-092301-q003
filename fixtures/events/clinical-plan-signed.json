@@ -1,5 +1,5 @@
 {
-  "event_id": "092301-003-sample",
+  "event_id": "evt-plan-0001",
   "kind": "CLINICAL_PLAN_SIGNED",
   "occurred_at": "2026-09-22T10:00:00+08:00",
   "subject_id": "patient-0427",
@@ -10,14 +10,20 @@
       {
         "kind": "exam",
         "description": "心电图与肌钙蛋白检测",
-        "rationale": "患者主诉胸闷，需排除心源性原因"
+        "rationale": "胸闷待查，先排除急性冠脉事件"
+      },
+      {
+        "kind": "treatment",
+        "description": "调整降压方案并随访",
+        "rationale": "诊室血压 152/96，既往高血压控制不佳"
       }
     ],
     "signed_by": "dr-wang-018",
     "signed_at": "2026-09-22T09:58:00+08:00",
     "signature_ref": "sig-2026-0922-018",
     "based_on": [
-      { "type": "material", "id": "mat-0922-01" }
+      { "type": "material", "id": "mat-0922-01" },
+      { "type": "answer", "id": "ans-0001" }
     ]
   }
 }

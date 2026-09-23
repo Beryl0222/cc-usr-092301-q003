@@ -1,0 +1,14 @@
+{
+  "event_id": "evt-appt-0001",
+  "kind": "APPOINTMENT_RESCHEDULED",
+  "occurred_at": "2026-09-21T14:00:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "appointment_id": "appt-0922-01",
+    "from_at": "2026-09-22T09:30:00+08:00",
+    "to_at": "2026-09-24T09:30:00+08:00",
+    "changed_at": "2026-09-21T14:00:00+08:00",
+    "reason": "医生临时停诊"
+  }
+}

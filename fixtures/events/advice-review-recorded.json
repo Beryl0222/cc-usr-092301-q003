@@ -1,0 +1,15 @@
+{
+  "event_id": "evt-review-0001",
+  "kind": "ADVICE_REVIEW_RECORDED",
+  "occurred_at": "2026-09-22T09:40:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "review_id": "rev-0001",
+    "answer_id": "ans-0001",
+    "clinician_id": "dr-wang-018",
+    "action": "challenge",
+    "rationale": "AI 建议直接做冠脉 CT，但缺少近期心电图与酶学依据，先行基础检查",
+    "reviewed_at": "2026-09-22T09:40:00+08:00"
+  }
+}

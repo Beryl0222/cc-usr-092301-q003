@@ -1,0 +1,14 @@
+{
+  "event_id": "evt-risk-0001",
+  "kind": "RISK_FLAG_RAISED",
+  "occurred_at": "2026-09-20T08:36:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "flag_id": "flag-0001",
+    "signals": ["chest_pain", "dyspnea"],
+    "instruction": "seek_emergency_care_offline",
+    "detected_at": "2026-09-20T08:36:00+08:00",
+    "trigger": "patient_free_text"
+  }
+}

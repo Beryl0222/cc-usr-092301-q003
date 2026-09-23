@@ -1,0 +1,18 @@
+{
+  "event_id": "evt-ai-0001",
+  "kind": "AI_ANSWER_RECORDED",
+  "occurred_at": "2026-09-20T08:35:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "answer_id": "ans-0001",
+    "tool": { "name": "example-med-assistant", "model_version": "2026.08" },
+    "generated_at": "2026-09-19T22:10:00+08:00",
+    "source_hash": "sha256:ab12cd",
+    "missing_context": ["未提供既往心电图", "家族史未填写"],
+    "based_on_materials": ["mat-0922-01"],
+    "derived_from_prior_answers": [
+      { "answer_id": "ans-0000", "generated_at": "2026-09-10T20:00:00+08:00" }
+    ]
+  }
+}

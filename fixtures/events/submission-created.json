@@ -1,0 +1,20 @@
+{
+  "event_id": "evt-sub-0001",
+  "kind": "SUBMISSION_CREATED",
+  "occurred_at": "2026-09-20T08:30:00+08:00",
+  "subject_id": "patient-0427",
+  "version": 1,
+  "payload": {
+    "submission_id": "sub-0920-01",
+    "purpose": "反复胸闷两周，心内科门诊前交接",
+    "questions": ["胸闷是否与心脏有关", "AI 建议的冠脉 CT 是否必要"],
+    "symptom_timeline": [
+      { "at": "2026-09-06T21:00:00+08:00", "description": "首次夜间胸闷，持续约十分钟" },
+      { "at": "2026-09-18T07:40:00+08:00", "description": "晨起胸闷加重伴出汗" }
+    ],
+    "past_history": ["高血压五年"],
+    "measurements": [
+      { "type": "blood_pressure", "value": "152/96", "unit": "mmHg", "measured_at": "2026-09-19T08:00:00+08:00" }
+    ]
+  }
+}
