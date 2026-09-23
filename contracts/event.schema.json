@@ -23,6 +23,29 @@
     },
     "version": {
       "type": "integer"
+    },
+    "actor": {
+      "type": "object",
+      "required": [
+        "id",
+        "role"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "patient",
+            "proxy",
+            "clinician",
+            "system"
+          ]
+        }
+      }
+    },
+    "payload": {
+      "type": "object"
     }
   }
 }

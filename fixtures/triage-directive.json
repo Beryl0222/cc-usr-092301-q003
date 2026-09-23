@@ -1,0 +1,20 @@
+{
+  "event_id": "evt-0003",
+  "kind": "TRIAGE_DIRECTIVE_ISSUED",
+  "occurred_at": "2026-09-23T08:12:00+08:00",
+  "subject_id": "sub-0001",
+  "version": 3,
+  "actor": {
+    "id": "system",
+    "role": "system"
+  },
+  "payload": {
+    "directive": {
+      "action": "SEEK_EMERGENCY_CARE",
+      "instructions": [
+        "立即停止线上填写，拨打急救电话 120 或前往最近的急诊部门"
+      ],
+      "notice": "本提示仅为安全引导，不构成医疗诊断，平台不作确诊。"
+    }
+  }
+}
